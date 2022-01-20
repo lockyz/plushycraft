@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##P",
+        "#LP",
+        "##P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:white_wool",
+            "data": 0
+        },
+        "P": {
+            "item": "plushycraft:stuffing",
+            "data": 0
+        },
+        "L": {
+            "item": "minecraft:light_blue_wool",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "plushycraft:amogusplushsitwhite",
+        "data": 0
+    },
+    "group": "stuff"
+}

@@ -1,0 +1,11 @@
+[{
+	"modid": "plushycraft",
+	"name": "Plushy Craft",
+	"description": "Plushy Craft adds various plushies to Minecraft\n\nPlease remember that this is an UNFINISHED version. Send ALL bugs and feedback to the Discord.",
+	"version": "0.1.0.2",
+	"mcversion": "1.12.2",
+	"url": "https://lockyzdev.net/minecraft/plushycraft",
+	"updateUrl": "http://db.lockyzdev.net/mods/plushycraft/update.json",
+	"authorList": ["Lockyz Dev"],
+	"credits": "The Forge and FML guys."
+}]

@@ -1,0 +1,41 @@
+tile.amogusplushsitred.name=Crewmate Plushy Sitting (Red)
+tile.amogusplushsitblue.name=Crewmate Plushy Sitting (Blue)
+tile.amogusplushsitgreen.name=Crewmate Plushy Sitting (Green)
+tile.amogusplushsitpink.name=Crewmate Plushy Sitting (Pink)
+tile.amogusplushsitorange.name=Crewmate Plushy Sitting (Orange)
+tile.amogusplushsitlime.name=Crewmate Plushy Sitting (Lime)
+tile.amogusplushsitwhite.name=Crewmate Plushy Sitting (White)
+tile.amogusplushsitblack.name=Crewmate Plushy Sitting (Black)
+
+tile.amogusplushstandred.name=Crewmate Plushy Standing (Red)
+tile.amogusplushstandblue.name=Crewmate Plushy Standing (Blue)
+tile.amogusplushstandgreen.name=Crewmate Plushy Standing (Green)
+tile.amogusplushstandpink.name=Crewmate Plushy Standing (Pink)
+tile.amogusplushstandorange.name=Crewmate Plushy Standing (Orange)
+tile.amogusplushstandlime.name=Crewmate Plushy Standing (Lime)
+tile.amogusplushstandwhite.name=Crewmate Plushy Standing (White)
+tile.amogusplushstandblack.name=Crewmate Plushy Standing (Black)
+
+tile.sheepplush.name=Sheep Plushy (White)
+
+item.stuffing.name=Stuffing
+item.fabricWhite.name=White Fabric
+item.fabricOrange.name=Orange Fabric
+item.fabricMagenta.name=Magenta Fabric
+item.fabricLightBlue.name=Light Blue Fabric
+item.fabricYellow.name=Yellow Fabric
+item.fabricLime.name=Lime Fabric
+item.fabricPink.name=Pink Fabric
+item.fabricGray.name=Gray Fabric
+item.fabricLightGray.name=Light Gray Fabric
+item.fabricCyan.name=Cyan Fabric
+item.fabricPurple.name=Purple Fabric
+item.fabricBlue.name=Blue Fabric
+item.fabricBrown.name=Brown Fabric
+item.fabricGreen.name=Green Fabric
+item.fabricRed.name=Red Fabric
+item.fabricBlack.name=Black Fabric
+
+itemGroup.plushycraft=Plushy Craft
+itemGroup.amogusplush=Among Us Plushies
+itemGroup.minecraftplush=Minecraft Plushies
