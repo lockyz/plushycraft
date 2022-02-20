@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "plushycraft:items/amogus/amogusplush_cyan"
+    "layer0": "plushycraft:items/amogus/amogusplush_sit_cyan"
   },
 
   "display": {

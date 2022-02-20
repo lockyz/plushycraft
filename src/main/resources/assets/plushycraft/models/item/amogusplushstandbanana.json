@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "plushycraft:items/amogus/amogusplush_banana"
+    "layer0": "plushycraft:items/amogus/amogusplush_stand_banana"
   },
 
   "display": {
