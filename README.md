@@ -27,13 +27,16 @@ You can report bugs, glitches and other various errors on our [Bug Tracker](http
 - [ ] Pikachu
 
 ### Among us Plushies
-- [ ] Rose Sitting/Standing
-- [ ] Cyan Sitting/Standing
-- [ ] Yellow Sitting/Standing
-- [ ] Purple Sitting/Standing
-- [ ] Banana Sitting/Standing
-- [ ] Coral Sitting/Standing
-- [ ] Gray Sitting/Standing
-- [ ] Maroon Sitting/Standing
-- [ ] Brown Sitting/Standing
-- [ ] Tan Sitting/Standing
+- [x] Rose Sitting/Standing
+- [x] Cyan Sitting/Standing
+- [x] Yellow Sitting/Standing
+- [x] Purple Sitting/Standing
+- [x] Banana Sitting/Standing
+- [x] Coral Sitting/Standing
+- [x] Gray Sitting/Standing
+- [x] Maroon Sitting/Standing
+- [x] Brown Sitting/Standing
+- [x] Tan Sitting/Standing
+
+### Misc Plushies
+- [ ] LMB Plushy
