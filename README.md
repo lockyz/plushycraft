@@ -1,5 +1,5 @@
 # Plushycraft
-[![Curseforge] (https://cf.way2muchnoise.eu/full_563968_downloads.svg)] [![Curseforge] (https://cf.way2muchnoise.eu/versions/563968.svg)]
+[![Curseforge] (https://cf.way2muchnoise.eu/full_563968_downloads.svg)] [![Curseforge](https://cf.way2muchnoise.eu/versions/563968.svg)]
 
 ## What is Plushycraft?
 Plushycraft is a decorative mod. It adds a number of different plushies you can add to your Minecraft game.
