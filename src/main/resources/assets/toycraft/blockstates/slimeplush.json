@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "toycraft:blocks/minecraft/slimeplush",
+      "particle": "toycraft:blocks/minecraft/slimeplush"
+    },
+    "model": "toycraft:slimeplush",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:slimeplush"},
+    "facing=north": {"model":  "toycraft:slimeplush"},
+    "facing=east": {"model":  "toycraft:slimeplushe"},
+    "facing=south": {"model":  "toycraft:slimeplushs"},
+    "facing=west": {"model":  "toycraft:slimeplushw"}
+  }
+}

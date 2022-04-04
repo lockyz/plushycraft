@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "#L#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wool",
+            "data": 0
+        },
+        "P": {
+            "item": "toycraft:stuffing",
+            "data": 0
+        },
+        "L": {
+            "item": "minecraft:bone",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "toycraft:amogusplushdeadwhite",
+        "data": 0
+    },
+    "group": "stuff"
+}

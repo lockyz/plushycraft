@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "toycraft:blocks/misc/ldevhim",
+      "particle": "toycraft:blocks/misc/ldevhim"
+    },
+    "model": "toycraft:ldevhimside",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:ldevhimside"},
+    "facing=north": {"model":  "toycraft:ldevhimside"},
+    "facing=east": {"model":  "toycraft:ldevhimside"},
+    "facing=south": {"model":  "toycraft:ldevhimside"},
+    "facing=west": {"model":  "toycraft:ldevhimside"}
+  }
+}

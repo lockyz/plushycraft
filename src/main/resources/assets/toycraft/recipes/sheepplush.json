@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##W",
+        "WWW",
+        "B#B"
+    ],
+    "key": {
+        "#": {
+            "item": "toycraft:stuffing",
+            "data": 0
+        },
+        "W": {
+            "item": "minecraft:wool",
+            "data": 0
+        },
+        "B": {
+            "item": "minecraft:wool",
+            "data": 12
+        }
+    },
+    "result": {
+        "item": "toycraft:sheepplush",
+        "data": 0
+    },
+    "group": "stuff"
+}

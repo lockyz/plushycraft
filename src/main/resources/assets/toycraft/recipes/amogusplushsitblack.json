@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wool",
+            "data": 15
+        },
+        {
+            "item": "toycraft:amogusplushsitwhite",
+            "data": 0
+        }
+    ],
+    "result": {
+        "item": "toycraft:amogusplushsitblack",
+        "data": 0
+    },
+    "group": "stuff"
+}

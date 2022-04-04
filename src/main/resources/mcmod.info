@@ -1,10 +1,10 @@
 [{
-	"modid": "plushycraft",
-	"name": "Plushy Craft",
-	"description": "Plushy Craft adds various plushies to Minecraft\n\nSend ALL bugs and feedback to https://tracker.lockyzdev.net",
-	"version": "1.0.0.0",
+	"modid": "toycraft",
+	"name": "Toycraft",
+	"description": "This is a beta version of the mod. Please report all issues to our Discord Server\n\nToycraft adds various plushies and toys from different games into Minecraft.\n\nWhat is Toycraft?\nToycraft is a decorative mod. It adds a number of different plushies to your Minecraft Game.\n\nWhat Plushies exist currently within Toycraft?\nWe have a list on our website: https://lockyzdev.net/toycraft/plushylist/\n\nWhere can I get help?\nYou can get help from our Discord Server: https://discord.gg/NgpN3YYbMM\nSend ALL bugs and feedback to https://tracker.lockyzdev.net",
+	"version": "1.1.0.0",
 	"mcversion": "1.12.2",
-	"url": "https://lockyzdev.net/minecraft/plushycraft",
+	"url": "https://lockyzdev.net/minecraft/toycraft",
 	"updateUrl": "http://db.lockyzdev.net/mods/plushycraft/update.json",
 	"authorList": ["Lockyz Dev"],
 	"credits": "The Forge and FML guys."

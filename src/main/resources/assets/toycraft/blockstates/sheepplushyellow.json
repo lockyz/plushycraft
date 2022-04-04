@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "toycraft:blocks/minecraft/sheep_yellow",
+      "particle": "toycraft:blocks/minecraft/sheep_yellow"
+    },
+    "model": "toycraft:shep",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:shep"},
+    "facing=north": {"model":  "toycraft:shep"},
+    "facing=east": {"model":  "toycraft:shepe"},
+    "facing=south": {"model":  "toycraft:sheps"},
+    "facing=west": {"model":  "toycraft:shepw"}
+  }
+}

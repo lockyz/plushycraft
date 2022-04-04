@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "2": "toycraft:blocks/amogus/amogus_face_outline",
+      "4": "toycraft:blocks/amogus/amogus_bone",
+      "5": "toycraft:blocks/amogus/amogus_blood",
+      "6": "toycraft:blocks/amogus/amogus_body_maroon",
+      "particle": "toycraft:blocks/amogus/amogus_face_glass"
+    },
+    "model": "toycraft:amogusplushdead",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:amogusplushdead"},
+    "facing=north": {"model":  "toycraft:amogusplushdead"},
+    "facing=east": {"model":  "toycraft:amogusplushdeade"},
+    "facing=south": {"model":  "toycraft:amogusplushdeads"},
+    "facing=west": {"model":  "toycraft:amogusplushdeadw"}
+  }
+}

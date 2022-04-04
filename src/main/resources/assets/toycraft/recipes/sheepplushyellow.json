@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wool",
+            "data": 4
+        },
+        {
+            "item": "toycraft:sheepplush",
+            "data": 0
+        }
+    ],
+    "result": {
+        "item": "toycraft:sheepplushyellow",
+        "data": 0
+    },
+    "group": "stuff"
+}

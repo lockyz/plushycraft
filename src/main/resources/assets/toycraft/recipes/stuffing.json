@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:string",
+            "data": 0
+        }
+    ],
+    "result": {
+        "item": "toycraft:stuffing",
+        "data": 0
+    },
+    "group": "stuff"
+}

@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "entity/zombie/zombie",
+      "particle": "entity/zombie/zombie"
+    },
+    "model": "toycraft:zombieplush",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:zombieplush"},
+    "facing=north": {"model":  "toycraft:zombieplush"},
+    "facing=east": {"model":  "toycraft:zombieplushe"},
+    "facing=south": {"model":  "toycraft:zombieplushs"},
+    "facing=west": {"model":  "toycraft:zombieplushw"}
+  }
+}

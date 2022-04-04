@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "1": "toycraft:blocks/amogus/amogus_body_brown",
+      "2": "toycraft:blocks/amogus/amogus_face_outline",
+      "3": "toycraft:blocks/amogus/amogus_face_glass",
+      "particle": "toycraft:blocks/amogus/amogus_face_glass"
+    },
+    "model": "toycraft:amogusplushstand",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:amogusplushstand"},
+    "facing=north": {"model":  "toycraft:amogusplushstand"},
+    "facing=east": {"model":  "toycraft:amogusplushstande"},
+    "facing=south": {"model":  "toycraft:amogusplushstands"},
+    "facing=west": {"model":  "toycraft:amogusplushstandw"}
+  }
+}
