@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "toycraft:blocks/minecraft/creeperplush"
+    },
+    "model": "toycraft:creeperplush",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:creeperplush"},
+    "facing=north": {"model":  "toycraft:creeperplush"},
+    "facing=east": {"model":  "toycraft:creeperplushe"},
+    "facing=south": {"model":  "toycraft:creeperplushs"},
+    "facing=west": {"model":  "toycraft:creeperplushw"}
+  }
+}

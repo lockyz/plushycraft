@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "toycraft:block/amogusplushstand",
 	"textures": {
-		"1": "toycraft:blocks/amogus/amogus_body",
+		"1": "toycraft:blocks/amogus/amogus_body_red",
 		"2": "toycraft:blocks/amogus/amogus_face_outline",
 		"3": "toycraft:blocks/amogus/amogus_face_glass",
 		"particle": "toycraft:blocks/amogus/amogus_face_glass"
