@@ -17,7 +17,7 @@ You can report bugs, glitches and other various errors on our [Bug Tracker](http
 ### Minecraft Plushies
 - [ ] Chicken
 - [ ] Bat
-- [ ] Creeper
+- [x] Creeper
 - [ ] Skeleton
 - [ ] Spider
 - [ ] Pig
@@ -42,3 +42,5 @@ You can report bugs, glitches and other various errors on our [Bug Tracker](http
 
 ### Misc Plushies
 - [x] LMB Plushy
+
+**There ARE more toys, they're just not on this list**
