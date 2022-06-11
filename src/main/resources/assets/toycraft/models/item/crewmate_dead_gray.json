@@ -1,0 +1,6 @@
+{
+  "parent": "toycraft:block/crewmate_dead",
+  "textures": {
+    "7": "toycraft:blocks/amogus/crewmate_gray"
+  }
+}

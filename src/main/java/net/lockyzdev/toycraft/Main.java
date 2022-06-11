@@ -17,7 +17,7 @@ public class Main
 {
     public static final String MODID = "toycraft";
     public static final String NAME = "Toycraft";
-    public static final String VERSION = "1.0.0.0";
+    public static final String VERSION = "1.2.0.0";
 
     private static Logger logger;
     

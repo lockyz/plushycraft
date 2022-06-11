@@ -5,14 +5,14 @@
       "0": "entity/zombie/zombie",
       "particle": "entity/zombie/zombie"
     },
-    "model": "toycraft:zombieplush",
+    "model": "toycraft:zombie_north",
     "uvlock": true
   },
   "variants": {
-    "normal": {"model":  "toycraft:zombieplush"},
-    "facing=north": {"model":  "toycraft:zombieplush"},
-    "facing=east": {"model":  "toycraft:zombieplushe"},
-    "facing=south": {"model":  "toycraft:zombieplushs"},
-    "facing=west": {"model":  "toycraft:zombieplushw"}
+    "normal": {"model":  "toycraft:zombie_north"},
+    "facing=north": {"model":  "toycraft:zombie_north"},
+    "facing=east": {"model":  "toycraft:zombie_east"},
+    "facing=south": {"model":  "toycraft:zombie_south"},
+    "facing=west": {"model":  "toycraft:zombie_west"}
   }
 }

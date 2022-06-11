@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "7": "toycraft:blocks/amogus/crewmate_rose"
+    },
+    "model": "toycraft:crewmate_dead",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:crewmate_dead"},
+    "facing=north": {"model":  "toycraft:crewmate_dead"},
+    "facing=east": {"model":  "toycraft:crewmate_dead_east"},
+    "facing=south": {"model":  "toycraft:crewmate_dead_south"},
+    "facing=west": {"model":  "toycraft:crewmate_dead_west"}
+  }
+}

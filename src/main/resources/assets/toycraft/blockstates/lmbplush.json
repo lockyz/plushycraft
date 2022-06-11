@@ -5,14 +5,14 @@
       "1": "toycraft:blocks/misc/lmbplush",
       "particle": "toycraft:blocks/misc/lmbplush"
     },
-    "model": "toycraft:lmbplush",
+    "model": "toycraft:lmb_north",
     "uvlock": true
   },
   "variants": {
-    "normal": {"model":  "toycraft:lmbplush"},
-    "facing=north": {"model":  "toycraft:lmbplush"},
-    "facing=east": {"model":  "toycraft:lmbplushe"},
-    "facing=south": {"model":  "toycraft:lmbplushs"},
-    "facing=west": {"model":  "toycraft:lmbplushw"}
+    "normal": {"model":  "toycraft:lmb_north"},
+    "facing=north": {"model":  "toycraft:lmb_north"},
+    "facing=east": {"model":  "toycraft:lmb_east"},
+    "facing=south": {"model":  "toycraft:lmb_south"},
+    "facing=west": {"model":  "toycraft:lmb_west"}
   }
 }

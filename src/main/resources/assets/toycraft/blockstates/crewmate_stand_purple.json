@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "4": "toycraft:blocks/amogus/crewmate_purple"
+    },
+    "model": "toycraft:crewmate_stand",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": {"model":  "toycraft:crewmate_stand"},
+    "facing=north": {"model":  "toycraft:crewmate_stand"},
+    "facing=east": {"model":  "toycraft:crewmate_stand_east"},
+    "facing=south": {"model":  "toycraft:crewmate_stand_south"},
+    "facing=west": {"model":  "toycraft:crewmate_stand_west"}
+  }
+}

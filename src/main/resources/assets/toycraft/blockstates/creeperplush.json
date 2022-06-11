@@ -4,14 +4,14 @@
     "textures": {
       "0": "toycraft:blocks/minecraft/creeperplush"
     },
-    "model": "toycraft:creeperplush",
+    "model": "toycraft:creeper_north",
     "uvlock": true
   },
   "variants": {
-    "normal": {"model":  "toycraft:creeperplush"},
-    "facing=north": {"model":  "toycraft:creeperplush"},
-    "facing=east": {"model":  "toycraft:creeperplushe"},
-    "facing=south": {"model":  "toycraft:creeperplushs"},
-    "facing=west": {"model":  "toycraft:creeperplushw"}
+    "normal": {"model":  "toycraft:creeper_north"},
+    "facing=north": {"model":  "toycraft:creeper_north"},
+    "facing=east": {"model":  "toycraft:creeper_east"},
+    "facing=south": {"model":  "toycraft:creeper_south"},
+    "facing=west": {"model":  "toycraft:creeper_west"}
   }
 }

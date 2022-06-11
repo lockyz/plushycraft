@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+issueTrackerURL="https://tracker.lockyzdev.net"
+
+[[mods]]
+
+modId="toycraft"
+version="2.0.0-1.16.5"
+displayName="Toy Craft"
+updateJSONURL="http://db.lockyzdev.net/mods/toycraft/update.json"
+displayURL="https://lockyzdev.net/toycraft"
+logoFile="toycraft.png"
+authors="Robin Painter-Sallis"
+
+description='''
+Toycraft adds various plushies and toys from different games into Minecraft.
+
+What is Toycraft?
+Toycraft is a decorative mod. It adds a number of different plushies to your Minecraft Game.
+
+What Plushies exist currently within Toycraft?
+We have a list on our website: https://lockyzdev.net/toycraft/plushylist/
+
+Where can I get help?
+You can get help from our Discord Server: https://discord.gg/NgpN3YYbMM
+Send ALL bugs and feedback to https://tracker.lockyzdev.net
+'''
+
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

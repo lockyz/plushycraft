@@ -1,0 +1,6 @@
+{
+  "parent": "toycraft:block/table",
+  "textures": {
+    "0": "toycraft:blocks/furniture/table"
+  }
+}

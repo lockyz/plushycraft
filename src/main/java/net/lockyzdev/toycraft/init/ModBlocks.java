@@ -19,62 +19,62 @@ import net.lockyzdev.toycraft.blocks.BlockBasic;
 @Mod.EventBusSubscriber(modid= Main.MODID)
 public class ModBlocks {
 	//Among Us Plushies
-	static Block amogusplushsitred;
-	static Block amogusplushsitblue;
-	static Block amogusplushsitgreen;
-	static Block amogusplushsitpink;
-	static Block amogusplushsitorange;
-	static Block amogusplushsitlime;
-	static Block amogusplushsitwhite;
-	static Block amogusplushsitblack;
-	static Block amogusplushsitrose;
-	static Block amogusplushsitcyan;
-	static Block amogusplushsityellow;
-	static Block amogusplushsitpurple;
-	static Block amogusplushsitbanana;
-	static Block amogusplushsitcoral;
-	static Block amogusplushsitgray;
-	static Block amogusplushsitmaroon;
-	static Block amogusplushsitbrown;
-	static Block amogusplushsittan;
+	static Block crewmate_sit_red;
+	static Block crewmate_sit_blue;
+	static Block crewmate_sit_green;
+	static Block crewmate_sit_pink;
+	static Block crewmate_sit_orange;
+	static Block crewmate_sit_lime;
+	static Block crewmate_sit_white;
+	static Block crewmate_sit_black;
+	static Block crewmate_sit_rose;
+	static Block crewmate_sit_cyan;
+	static Block crewmate_sit_yellow;
+	static Block crewmate_sit_purple;
+	static Block crewmate_sit_banana;
+	static Block crewmate_sit_coral;
+	static Block crewmate_sit_gray;
+	static Block crewmate_sit_maroon;
+	static Block crewmate_sit_brown;
+	static Block crewmate_sit_tan;
 
-	static Block amogusplushstandred;
-	static Block amogusplushstandblue;
-	static Block amogusplushstandgreen;
-	static Block amogusplushstandpink;
-	static Block amogusplushstandorange;
-	static Block amogusplushstandlime;
-	static Block amogusplushstandwhite;
-	static Block amogusplushstandblack;
-	static Block amogusplushstandrose;
-	static Block amogusplushstandcyan;
-	static Block amogusplushstandyellow;
-	static Block amogusplushstandpurple;
-	static Block amogusplushstandbanana;
-	static Block amogusplushstandcoral;
-	static Block amogusplushstandgray;
-	static Block amogusplushstandmaroon;
-	static Block amogusplushstandbrown;
-	static Block amogusplushstandtan;
+	static Block crewmate_stand_red;
+	static Block crewmate_stand_blue;
+	static Block crewmate_stand_green;
+	static Block crewmate_stand_pink;
+	static Block crewmate_stand_orange;
+	static Block crewmate_stand_lime;
+	static Block crewmate_stand_white;
+	static Block crewmate_stand_black;
+	static Block crewmate_stand_rose;
+	static Block crewmate_stand_cyan;
+	static Block crewmate_stand_yellow;
+	static Block crewmate_stand_purple;
+	static Block crewmate_stand_banana;
+	static Block crewmate_stand_coral;
+	static Block crewmate_stand_gray;
+	static Block crewmate_stand_maroon;
+	static Block crewmate_stand_brown;
+	static Block crewmate_stand_tan;
 
-	static Block amogusplushdeadred;
-	static Block amogusplushdeadblue;
-	static Block amogusplushdeadgreen;
-	static Block amogusplushdeadpink;
-	static Block amogusplushdeadorange;
-	static Block amogusplushdeadlime;
-	static Block amogusplushdeadwhite;
-	static Block amogusplushdeadblack;
-	static Block amogusplushdeadrose;
-	static Block amogusplushdeadcyan;
-	static Block amogusplushdeadyellow;
-	static Block amogusplushdeadpurple;
-	static Block amogusplushdeadbanana;
-	static Block amogusplushdeadcoral;
-	static Block amogusplushdeadgray;
-	static Block amogusplushdeadmaroon;
-	static Block amogusplushdeadbrown;
-	static Block amogusplushdeadtan;
+	static Block crewmate_dead_red;
+	static Block crewmate_dead_blue;
+	static Block crewmate_dead_green;
+	static Block crewmate_dead_pink;
+	static Block crewmate_dead_orange;
+	static Block crewmate_dead_lime;
+	static Block crewmate_dead_white;
+	static Block crewmate_dead_black;
+	static Block crewmate_dead_rose;
+	static Block crewmate_dead_cyan;
+	static Block crewmate_dead_yellow;
+	static Block crewmate_dead_purple;
+	static Block crewmate_dead_banana;
+	static Block crewmate_dead_coral;
+	static Block crewmate_dead_gray;
+	static Block crewmate_dead_maroon;
+	static Block crewmate_dead_brown;
+	static Block crewmate_dead_tan;
 
 	//Minecraft Plushies
 	static Block sheepplush;
@@ -103,10 +103,13 @@ public class ModBlocks {
 	static Block ldevhim;
 	static Block ldevhimside;
 
+	//Furnitre
+	static Block table;
+
 	static final CreativeTabs amogusplush = (new CreativeTabs("amogusplush") {
 		@Override
 		public ItemStack getTabIconItem() {
-			return new ItemStack(amogusplushsitred);
+			return new ItemStack(crewmate_sit_red);
 		}
 	});
 
@@ -122,64 +125,69 @@ public class ModBlocks {
 		public ItemStack getTabIconItem(){return new ItemStack(lmbplush);}
 	});
 
+	static final CreativeTabs furniture = (new CreativeTabs("furniture") {
+		@Override
+		public ItemStack getTabIconItem(){return new ItemStack(table);}
+	});
+
 	public static void init() {
 		//Among Us Plushies
-		amogusplushsitred = new BlockBasic("amogusplushsitred", "amogusplushsitred", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitblue = new BlockBasic("amogusplushsitblue", "amogusplushsitblue", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitgreen = new BlockBasic("amogusplushsitgreen", "amogusplushsitgreen", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitpink = new BlockBasic("amogusplushsitpink", "amogusplushsitpink", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitorange = new BlockBasic("amogusplushsitorange", "amogusplushsitorange", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitlime = new BlockBasic("amogusplushsitlime", "amogusplushsitlime", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitwhite = new BlockBasic("amogusplushsitwhite", "amogusplushsitwhite", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitblack = new BlockBasic("amogusplushsitblack", "amogusplushsitblack", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitrose = new BlockBasic("amogusplushsitrose", "amogusplushsitrose", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitcyan = new BlockBasic("amogusplushsitcyan", "amogusplushsitcyan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsityellow = new BlockBasic("amogusplushsityellow", "amogusplushsityellow", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitpurple = new BlockBasic("amogusplushsitpurple", "amogusplushsitpurple", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitbanana = new BlockBasic("amogusplushsitbanana", "amogusplushsitbanana", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitcoral = new BlockBasic("amogusplushsitcoral", "amogusplushsitcoral", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitgray = new BlockBasic("amogusplushsitgray", "amogusplushsitgray", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitmaroon = new BlockBasic("amogusplushsitmaroon", "amogusplushsitmaroon", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsitbrown = new BlockBasic("amogusplushsitbrown", "amogusplushsitbrown", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushsittan = new BlockBasic("amogusplushsittan", "amogusplushsittan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_red = new BlockBasic("crewmate_sit_red", "crewmate_sit_red", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_blue = new BlockBasic("crewmate_sit_blue", "crewmate_sit_blue", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_green = new BlockBasic("crewmate_sit_green", "crewmate_sit_green", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_pink = new BlockBasic("crewmate_sit_pink", "crewmate_sit_pink", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_orange = new BlockBasic("crewmate_sit_orange", "crewmate_sit_orange", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_lime = new BlockBasic("crewmate_sit_lime", "crewmate_sit_lime", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_white = new BlockBasic("crewmate_sit_white", "crewmate_sit_white", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_black = new BlockBasic("crewmate_sit_black", "crewmate_sit_black", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_rose = new BlockBasic("crewmate_sit_rose", "crewmate_sit_rose", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_cyan = new BlockBasic("crewmate_sit_cyan", "crewmate_sit_cyan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_yellow = new BlockBasic("crewmate_sit_yellow", "crewmate_sit_yellow", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_purple = new BlockBasic("crewmate_sit_purple", "crewmate_sit_purple", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_banana = new BlockBasic("crewmate_sit_banana", "crewmate_sit_banana", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_coral = new BlockBasic("crewmate_sit_coral", "crewmate_sit_coral", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_gray = new BlockBasic("crewmate_sit_gray", "crewmate_sit_gray", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_maroon = new BlockBasic("crewmate_sit_maroon", "crewmate_sit_maroon", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_brown = new BlockBasic("crewmate_sit_brown", "crewmate_sit_brown", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_sit_tan = new BlockBasic("crewmate_sit_tan", "crewmate_sit_tan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
 
-		amogusplushstandred = new BlockBasic("amogusplushstandred", "amogusplushstandred", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandblue = new BlockBasic("amogusplushstandblue", "amogusplushstandblue", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandgreen = new BlockBasic("amogusplushstandgreen", "amogusplushstandgreen", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandpink = new BlockBasic("amogusplushstandpink", "amogusplushstandpink", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandorange = new BlockBasic("amogusplushstandorange", "amogusplushstandorange", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandlime = new BlockBasic("amogusplushstandlime", "amogusplushstandlime", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandwhite = new BlockBasic("amogusplushstandwhite", "amogusplushstandwhite", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandblack = new BlockBasic("amogusplushstandblack", "amogusplushstandblack", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandrose = new BlockBasic("amogusplushstandrose", "amogusplushstandrose", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandcyan = new BlockBasic("amogusplushstandcyan", "amogusplushstandcyan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandyellow = new BlockBasic("amogusplushstandyellow", "amogusplushstandyellow", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandpurple = new BlockBasic("amogusplushstandpurple", "amogusplushstandpurple", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandbanana = new BlockBasic("amogusplushstandbanana", "amogusplushstandbanana", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandcoral = new BlockBasic("amogusplushstandcoral", "amogusplushstandcoral", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandgray = new BlockBasic("amogusplushstandgray", "amogusplushstandgray", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandmaroon = new BlockBasic("amogusplushstandmaroon", "amogusplushstandmaroon", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandbrown = new BlockBasic("amogusplushstandbrown", "amogusplushstandbrown", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushstandtan = new BlockBasic("amogusplushstandtan", "amogusplushstandtan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_red = new BlockBasic("crewmate_stand_red", "crewmate_stand_red", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_blue = new BlockBasic("crewmate_stand_blue", "crewmate_stand_blue", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_green = new BlockBasic("crewmate_stand_green", "crewmate_stand_green", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_pink = new BlockBasic("crewmate_stand_pink", "crewmate_stand_pink", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_orange = new BlockBasic("crewmate_stand_orange", "crewmate_stand_orange", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_lime = new BlockBasic("crewmate_stand_lime", "crewmate_stand_lime", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_white = new BlockBasic("crewmate_stand_white", "crewmate_stand_white", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_black = new BlockBasic("crewmate_stand_black", "crewmate_stand_black", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_rose = new BlockBasic("crewmate_stand_rose", "crewmate_stand_rose", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_cyan = new BlockBasic("crewmate_stand_cyan", "crewmate_stand_cyan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_yellow = new BlockBasic("crewmate_stand_yellow", "crewmate_stand_yellow", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_purple = new BlockBasic("crewmate_stand_purple", "crewmate_stand_purple", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_banana = new BlockBasic("crewmate_stand_banana", "crewmate_stand_banana", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_coral = new BlockBasic("crewmate_stand_coral", "crewmate_stand_coral", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_gray = new BlockBasic("crewmate_stand_gray", "crewmate_stand_gray", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_maroon = new BlockBasic("crewmate_stand_maroon", "crewmate_stand_maroon", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_brown = new BlockBasic("crewmate_stand_brown", "crewmate_stand_brown", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_stand_tan = new BlockBasic("crewmate_stand_tan", "crewmate_stand_tan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
 
-		amogusplushdeadred = new BlockBasic("amogusplushdeadred", "amogusplushdeadred", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadblue = new BlockBasic("amogusplushdeadblue", "amogusplushdeadblue", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadgreen = new BlockBasic("amogusplushdeadgreen", "amogusplushdeadgreen", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadpink = new BlockBasic("amogusplushdeadpink", "amogusplushdeadpink", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadorange = new BlockBasic("amogusplushdeadorange", "amogusplushdeadorange", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadlime = new BlockBasic("amogusplushdeadlime", "amogusplushdeadlime", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadwhite = new BlockBasic("amogusplushdeadwhite", "amogusplushdeadwhite", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadblack = new BlockBasic("amogusplushdeadblack", "amogusplushdeadblack", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadrose = new BlockBasic("amogusplushdeadrose", "amogusplushdeadrose", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadcyan = new BlockBasic("amogusplushdeadcyan", "amogusplushdeadcyan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadyellow = new BlockBasic("amogusplushdeadyellow", "amogusplushdeadyellow", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadpurple = new BlockBasic("amogusplushdeadpurple", "amogusplushdeadpurple", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadbanana = new BlockBasic("amogusplushdeadbanana", "amogusplushdeadbanana", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadcoral = new BlockBasic("amogusplushdeadcoral", "amogusplushdeadcoral", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadgray = new BlockBasic("amogusplushdeadgray", "amogusplushdeadgray", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadmaroon = new BlockBasic("amogusplushdeadmaroon", "amogusplushdeadmaroon", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadbrown = new BlockBasic("amogusplushdeadbrown", "amogusplushdeadbrown", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
-		amogusplushdeadtan = new BlockBasic("amogusplushdeadtan", "amogusplushdeadtan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_red = new BlockBasic("crewmate_dead_red", "crewmate_dead_red", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_blue = new BlockBasic("crewmate_dead_blue", "crewmate_dead_blue", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_green = new BlockBasic("crewmate_dead_green", "crewmate_dead_green", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_pink = new BlockBasic("crewmate_dead_pink", "crewmate_dead_pink", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_orange = new BlockBasic("crewmate_dead_orange", "crewmate_dead_orange", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_lime = new BlockBasic("crewmate_dead_lime", "crewmate_dead_lime", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_white = new BlockBasic("crewmate_dead_white", "crewmate_dead_white", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_black = new BlockBasic("crewmate_dead_black", "crewmate_dead_black", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_rose = new BlockBasic("crewmate_dead_rose", "crewmate_dead_rose", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_cyan = new BlockBasic("crewmate_dead_cyan", "crewmate_dead_cyan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_yellow = new BlockBasic("crewmate_dead_yellow", "crewmate_dead_yellow", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_purple = new BlockBasic("crewmate_dead_purple", "crewmate_dead_purple", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_banana = new BlockBasic("crewmate_dead_banana", "crewmate_dead_banana", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_coral = new BlockBasic("crewmate_dead_coral", "crewmate_dead_coral", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_gray = new BlockBasic("crewmate_dead_gray", "crewmate_dead_gray", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_maroon = new BlockBasic("crewmate_dead_maroon", "crewmate_dead_maroon", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_brown = new BlockBasic("crewmate_dead_brown", "crewmate_dead_brown", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
+		crewmate_dead_tan = new BlockBasic("crewmate_dead_tan", "crewmate_dead_tan", Material.CLOTH).setHardness(1.0f).setCreativeTab(amogusplush);
 
 		//Minecraft Plushies
 		sheepplush = new BlockBasic("sheepplush", "sheepplush", Material.CLOTH).setHardness(1.0f).setCreativeTab(minecraftplush);
@@ -207,67 +215,70 @@ public class ModBlocks {
 		lmbplush = new BlockBasic("lmbplush", "lmbplush", Material.CLOTH).setHardness(1.0f).setCreativeTab(lockyzdev);
 		ldevhim = new BlockBasic("ldevhim", "ldevhim", Material.CLOTH).setHardness(1.0f);
 		ldevhimside = new BlockBasic("ldevhimside", "ldevhimside", Material.CLOTH).setHardness(1.0f);
+
+		//Furniture
+		table = new BlockBasic("table", "table", Material.CLOTH).setHardness(1.0f).setCreativeTab(furniture);
 	}
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
 		//Among Us Plushies
-		event.getRegistry().registerAll(amogusplushsitred);
-		event.getRegistry().registerAll(amogusplushsitblue);
-		event.getRegistry().registerAll(amogusplushsitgreen);
-		event.getRegistry().registerAll(amogusplushsitpink);
-		event.getRegistry().registerAll(amogusplushsitorange);
-		event.getRegistry().registerAll(amogusplushsitlime);
-		event.getRegistry().registerAll(amogusplushsitwhite);
-		event.getRegistry().registerAll(amogusplushsitblack);
-		event.getRegistry().registerAll(amogusplushsitrose);
-		event.getRegistry().registerAll(amogusplushsitcyan);
-		event.getRegistry().registerAll(amogusplushsityellow);
-		event.getRegistry().registerAll(amogusplushsitpurple);
-		event.getRegistry().registerAll(amogusplushsitbanana);
-		event.getRegistry().registerAll(amogusplushsitcoral);
-		event.getRegistry().registerAll(amogusplushsitgray);
-		event.getRegistry().registerAll(amogusplushsitmaroon);
-		event.getRegistry().registerAll(amogusplushsitbrown);
-		event.getRegistry().registerAll(amogusplushsittan);
+		event.getRegistry().registerAll(crewmate_sit_red);
+		event.getRegistry().registerAll(crewmate_sit_blue);
+		event.getRegistry().registerAll(crewmate_sit_green);
+		event.getRegistry().registerAll(crewmate_sit_pink);
+		event.getRegistry().registerAll(crewmate_sit_orange);
+		event.getRegistry().registerAll(crewmate_sit_lime);
+		event.getRegistry().registerAll(crewmate_sit_white);
+		event.getRegistry().registerAll(crewmate_sit_black);
+		event.getRegistry().registerAll(crewmate_sit_rose);
+		event.getRegistry().registerAll(crewmate_sit_cyan);
+		event.getRegistry().registerAll(crewmate_sit_yellow);
+		event.getRegistry().registerAll(crewmate_sit_purple);
+		event.getRegistry().registerAll(crewmate_sit_banana);
+		event.getRegistry().registerAll(crewmate_sit_coral);
+		event.getRegistry().registerAll(crewmate_sit_gray);
+		event.getRegistry().registerAll(crewmate_sit_maroon);
+		event.getRegistry().registerAll(crewmate_sit_brown);
+		event.getRegistry().registerAll(crewmate_sit_tan);
 
-		event.getRegistry().registerAll(amogusplushstandred);
-		event.getRegistry().registerAll(amogusplushstandblue);
-		event.getRegistry().registerAll(amogusplushstandgreen);
-		event.getRegistry().registerAll(amogusplushstandpink);
-		event.getRegistry().registerAll(amogusplushstandorange);
-		event.getRegistry().registerAll(amogusplushstandlime);
-		event.getRegistry().registerAll(amogusplushstandwhite);
-		event.getRegistry().registerAll(amogusplushstandblack);
-		event.getRegistry().registerAll(amogusplushstandrose);
-		event.getRegistry().registerAll(amogusplushstandcyan);
-		event.getRegistry().registerAll(amogusplushstandyellow);
-		event.getRegistry().registerAll(amogusplushstandpurple);
-		event.getRegistry().registerAll(amogusplushstandbanana);
-		event.getRegistry().registerAll(amogusplushstandcoral);
-		event.getRegistry().registerAll(amogusplushstandgray);
-		event.getRegistry().registerAll(amogusplushstandmaroon);
-		event.getRegistry().registerAll(amogusplushstandbrown);
-		event.getRegistry().registerAll(amogusplushstandtan);
+		event.getRegistry().registerAll(crewmate_stand_red);
+		event.getRegistry().registerAll(crewmate_stand_blue);
+		event.getRegistry().registerAll(crewmate_stand_green);
+		event.getRegistry().registerAll(crewmate_stand_pink);
+		event.getRegistry().registerAll(crewmate_stand_orange);
+		event.getRegistry().registerAll(crewmate_stand_lime);
+		event.getRegistry().registerAll(crewmate_stand_white);
+		event.getRegistry().registerAll(crewmate_stand_black);
+		event.getRegistry().registerAll(crewmate_stand_rose);
+		event.getRegistry().registerAll(crewmate_stand_cyan);
+		event.getRegistry().registerAll(crewmate_stand_yellow);
+		event.getRegistry().registerAll(crewmate_stand_purple);
+		event.getRegistry().registerAll(crewmate_stand_banana);
+		event.getRegistry().registerAll(crewmate_stand_coral);
+		event.getRegistry().registerAll(crewmate_stand_gray);
+		event.getRegistry().registerAll(crewmate_stand_maroon);
+		event.getRegistry().registerAll(crewmate_stand_brown);
+		event.getRegistry().registerAll(crewmate_stand_tan);
 
-		event.getRegistry().registerAll(amogusplushdeadred);
-		event.getRegistry().registerAll(amogusplushdeadblue);
-		event.getRegistry().registerAll(amogusplushdeadgreen);
-		event.getRegistry().registerAll(amogusplushdeadpink);
-		event.getRegistry().registerAll(amogusplushdeadorange);
-		event.getRegistry().registerAll(amogusplushdeadlime);
-		event.getRegistry().registerAll(amogusplushdeadwhite);
-		event.getRegistry().registerAll(amogusplushdeadblack);
-		event.getRegistry().registerAll(amogusplushdeadrose);
-		event.getRegistry().registerAll(amogusplushdeadcyan);
-		event.getRegistry().registerAll(amogusplushdeadyellow);
-		event.getRegistry().registerAll(amogusplushdeadpurple);
-		event.getRegistry().registerAll(amogusplushdeadbanana);
-		event.getRegistry().registerAll(amogusplushdeadcoral);
-		event.getRegistry().registerAll(amogusplushdeadgray);
-		event.getRegistry().registerAll(amogusplushdeadmaroon);
-		event.getRegistry().registerAll(amogusplushdeadbrown);
-		event.getRegistry().registerAll(amogusplushdeadtan);
+		event.getRegistry().registerAll(crewmate_dead_red);
+		event.getRegistry().registerAll(crewmate_dead_blue);
+		event.getRegistry().registerAll(crewmate_dead_green);
+		event.getRegistry().registerAll(crewmate_dead_pink);
+		event.getRegistry().registerAll(crewmate_dead_orange);
+		event.getRegistry().registerAll(crewmate_dead_lime);
+		event.getRegistry().registerAll(crewmate_dead_white);
+		event.getRegistry().registerAll(crewmate_dead_black);
+		event.getRegistry().registerAll(crewmate_dead_rose);
+		event.getRegistry().registerAll(crewmate_dead_cyan);
+		event.getRegistry().registerAll(crewmate_dead_yellow);
+		event.getRegistry().registerAll(crewmate_dead_purple);
+		event.getRegistry().registerAll(crewmate_dead_banana);
+		event.getRegistry().registerAll(crewmate_dead_coral);
+		event.getRegistry().registerAll(crewmate_dead_gray);
+		event.getRegistry().registerAll(crewmate_dead_maroon);
+		event.getRegistry().registerAll(crewmate_dead_brown);
+		event.getRegistry().registerAll(crewmate_dead_tan);
 
 		//Minecraft Plushies
 		event.getRegistry().registerAll(sheepplush);
@@ -295,67 +306,70 @@ public class ModBlocks {
 		event.getRegistry().registerAll(lmbplush);
 		event.getRegistry().registerAll(ldevhim);
 		event.getRegistry().registerAll(ldevhimside);
+
+		//Furniture
+		event.getRegistry().registerAll(table);
 	}
 	
 	@SubscribeEvent
 	public static void registerItemBlocks(RegistryEvent.Register<Item> event) {
 		//Among Us Plushies
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitred).setRegistryName("amogusplushsitred"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitblue).setRegistryName("amogusplushsitblue"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitgreen).setRegistryName("amogusplushsitgreen"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitpink).setRegistryName("amogusplushsitpink"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitorange).setRegistryName("amogusplushsitorange"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitlime).setRegistryName("amogusplushsitlime"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitwhite).setRegistryName("amogusplushsitwhite"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitblack).setRegistryName("amogusplushsitblack"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitrose).setRegistryName("amogusplushsitrose"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitcyan).setRegistryName("amogusplushsitcyan"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsityellow).setRegistryName("amogusplushsityellow"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitpurple).setRegistryName("amogusplushsitpurple"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitbanana).setRegistryName("amogusplushsitbanana"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitcoral).setRegistryName("amogusplushsitcoral"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitgray).setRegistryName("amogusplushsitgray"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitmaroon).setRegistryName("amogusplushsitmaroon"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsitbrown).setRegistryName("amogusplushsitbrown"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushsittan).setRegistryName("amogusplushsittan"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_red).setRegistryName("crewmate_sit_red"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_blue).setRegistryName("crewmate_sit_blue"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_green).setRegistryName("crewmate_sit_green"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_pink).setRegistryName("crewmate_sit_pink"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_orange).setRegistryName("crewmate_sit_orange"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_lime).setRegistryName("crewmate_sit_lime"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_white).setRegistryName("crewmate_sit_white"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_black).setRegistryName("crewmate_sit_black"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_rose).setRegistryName("crewmate_sit_rose"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_cyan).setRegistryName("crewmate_sit_cyan"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_yellow).setRegistryName("crewmate_sit_yellow"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_purple).setRegistryName("crewmate_sit_purple"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_banana).setRegistryName("crewmate_sit_banana"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_coral).setRegistryName("crewmate_sit_coral"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_gray).setRegistryName("crewmate_sit_gray"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_maroon).setRegistryName("crewmate_sit_maroon"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_brown).setRegistryName("crewmate_sit_brown"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_sit_tan).setRegistryName("crewmate_sit_tan"));
 
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandred).setRegistryName("amogusplushstandred"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandblue).setRegistryName("amogusplushstandblue"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandgreen).setRegistryName("amogusplushstandgreen"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandpink).setRegistryName("amogusplushstandpink"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandorange).setRegistryName("amogusplushstandorange"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandlime).setRegistryName("amogusplushstandlime"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandwhite).setRegistryName("amogusplushstandwhite"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandblack).setRegistryName("amogusplushstandblack"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandrose).setRegistryName("amogusplushstandrose"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandcyan).setRegistryName("amogusplushstandcyan"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandyellow).setRegistryName("amogusplushstandyellow"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandpurple).setRegistryName("amogusplushstandpurple"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandbanana).setRegistryName("amogusplushstandbanana"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandcoral).setRegistryName("amogusplushstandcoral"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandgray).setRegistryName("amogusplushstandgray"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandmaroon).setRegistryName("amogusplushstandmaroon"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandbrown).setRegistryName("amogusplushstandbrown"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushstandtan).setRegistryName("amogusplushstandtan"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_red).setRegistryName("crewmate_stand_red"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_blue).setRegistryName("crewmate_stand_blue"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_green).setRegistryName("crewmate_stand_green"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_pink).setRegistryName("crewmate_stand_pink"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_orange).setRegistryName("crewmate_stand_orange"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_lime).setRegistryName("crewmate_stand_lime"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_white).setRegistryName("crewmate_stand_white"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_black).setRegistryName("crewmate_stand_black"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_rose).setRegistryName("crewmate_stand_rose"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_cyan).setRegistryName("crewmate_stand_cyan"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_yellow).setRegistryName("crewmate_stand_yellow"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_purple).setRegistryName("crewmate_stand_purple"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_banana).setRegistryName("crewmate_stand_banana"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_coral).setRegistryName("crewmate_stand_coral"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_gray).setRegistryName("crewmate_stand_gray"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_maroon).setRegistryName("crewmate_stand_maroon"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_brown).setRegistryName("crewmate_stand_brown"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_stand_tan).setRegistryName("crewmate_stand_tan"));
 
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadred).setRegistryName("amogusplushdeadred"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadblue).setRegistryName("amogusplushdeadblue"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadgreen).setRegistryName("amogusplushdeadgreen"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadpink).setRegistryName("amogusplushdeadpink"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadorange).setRegistryName("amogusplushdeadorange"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadlime).setRegistryName("amogusplushdeadlime"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadwhite).setRegistryName("amogusplushdeadwhite"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadblack).setRegistryName("amogusplushdeadblack"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadrose).setRegistryName("amogusplushdeadrose"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadcyan).setRegistryName("amogusplushdeadcyan"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadyellow).setRegistryName("amogusplushdeadyellow"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadpurple).setRegistryName("amogusplushdeadpurple"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadbanana).setRegistryName("amogusplushdeadbanana"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadcoral).setRegistryName("amogusplushdeadcoral"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadgray).setRegistryName("amogusplushdeadgray"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadmaroon).setRegistryName("amogusplushdeadmaroon"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadbrown).setRegistryName("amogusplushdeadbrown"));
-		event.getRegistry().registerAll(new ItemBlock(amogusplushdeadtan).setRegistryName("amogusplushdeadtan"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_red).setRegistryName("crewmate_dead_red"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_blue).setRegistryName("crewmate_dead_blue"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_green).setRegistryName("crewmate_dead_green"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_pink).setRegistryName("crewmate_dead_pink"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_orange).setRegistryName("crewmate_dead_orange"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_lime).setRegistryName("crewmate_dead_lime"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_white).setRegistryName("crewmate_dead_white"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_black).setRegistryName("crewmate_dead_black"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_rose).setRegistryName("crewmate_dead_rose"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_cyan).setRegistryName("crewmate_dead_cyan"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_yellow).setRegistryName("crewmate_dead_yellow"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_purple).setRegistryName("crewmate_dead_purple"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_banana).setRegistryName("crewmate_dead_banana"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_coral).setRegistryName("crewmate_dead_coral"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_gray).setRegistryName("crewmate_dead_gray"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_maroon).setRegistryName("crewmate_dead_maroon"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_brown).setRegistryName("crewmate_dead_brown"));
+		event.getRegistry().registerAll(new ItemBlock(crewmate_dead_tan).setRegistryName("crewmate_dead_tan"));
 
 		//Minecraft Plushies
 		event.getRegistry().registerAll(new ItemBlock(sheepplush).setRegistryName("sheepplush"));
@@ -384,67 +398,69 @@ public class ModBlocks {
 		event.getRegistry().registerAll(new ItemBlock(ldevhim).setRegistryName("ldevhim"));
 		event.getRegistry().registerAll(new ItemBlock(ldevhimside).setRegistryName("ldevhimside"));
 
+		//Furniture
+		event.getRegistry().registerAll(new ItemBlock(table).setRegistryName("table"));
 	}
 	
 	@SubscribeEvent
 	public static void registerRenders(ModelRegistryEvent event) {
 		//Among Us Plushies
-		registerRender(Item.getItemFromBlock(amogusplushsitred));
-		registerRender(Item.getItemFromBlock(amogusplushsitblue));
-		registerRender(Item.getItemFromBlock(amogusplushsitgreen));
-		registerRender(Item.getItemFromBlock(amogusplushsitpink));
-		registerRender(Item.getItemFromBlock(amogusplushsitorange));
-		registerRender(Item.getItemFromBlock(amogusplushsitlime));
-		registerRender(Item.getItemFromBlock(amogusplushsitwhite));
-		registerRender(Item.getItemFromBlock(amogusplushsitblack));
-		registerRender(Item.getItemFromBlock(amogusplushsitrose));
-		registerRender(Item.getItemFromBlock(amogusplushsitcyan));
-		registerRender(Item.getItemFromBlock(amogusplushsityellow));
-		registerRender(Item.getItemFromBlock(amogusplushsitpurple));
-		registerRender(Item.getItemFromBlock(amogusplushsitbanana));
-		registerRender(Item.getItemFromBlock(amogusplushsitcoral));
-		registerRender(Item.getItemFromBlock(amogusplushsitgray));
-		registerRender(Item.getItemFromBlock(amogusplushsitmaroon));
-		registerRender(Item.getItemFromBlock(amogusplushsitbrown));
-		registerRender(Item.getItemFromBlock(amogusplushsittan));
+		registerRender(Item.getItemFromBlock(crewmate_sit_red));
+		registerRender(Item.getItemFromBlock(crewmate_sit_blue));
+		registerRender(Item.getItemFromBlock(crewmate_sit_green));
+		registerRender(Item.getItemFromBlock(crewmate_sit_pink));
+		registerRender(Item.getItemFromBlock(crewmate_sit_orange));
+		registerRender(Item.getItemFromBlock(crewmate_sit_lime));
+		registerRender(Item.getItemFromBlock(crewmate_sit_white));
+		registerRender(Item.getItemFromBlock(crewmate_sit_black));
+		registerRender(Item.getItemFromBlock(crewmate_sit_rose));
+		registerRender(Item.getItemFromBlock(crewmate_sit_cyan));
+		registerRender(Item.getItemFromBlock(crewmate_sit_yellow));
+		registerRender(Item.getItemFromBlock(crewmate_sit_purple));
+		registerRender(Item.getItemFromBlock(crewmate_sit_banana));
+		registerRender(Item.getItemFromBlock(crewmate_sit_coral));
+		registerRender(Item.getItemFromBlock(crewmate_sit_gray));
+		registerRender(Item.getItemFromBlock(crewmate_sit_maroon));
+		registerRender(Item.getItemFromBlock(crewmate_sit_brown));
+		registerRender(Item.getItemFromBlock(crewmate_sit_tan));
 
-		registerRender(Item.getItemFromBlock(amogusplushstandred));
-		registerRender(Item.getItemFromBlock(amogusplushstandblue));
-		registerRender(Item.getItemFromBlock(amogusplushstandgreen));
-		registerRender(Item.getItemFromBlock(amogusplushstandpink));
-		registerRender(Item.getItemFromBlock(amogusplushstandorange));
-		registerRender(Item.getItemFromBlock(amogusplushstandlime));
-		registerRender(Item.getItemFromBlock(amogusplushstandwhite));
-		registerRender(Item.getItemFromBlock(amogusplushstandblack));
-		registerRender(Item.getItemFromBlock(amogusplushstandrose));
-		registerRender(Item.getItemFromBlock(amogusplushstandcyan));
-		registerRender(Item.getItemFromBlock(amogusplushstandyellow));
-		registerRender(Item.getItemFromBlock(amogusplushstandpurple));
-		registerRender(Item.getItemFromBlock(amogusplushstandbanana));
-		registerRender(Item.getItemFromBlock(amogusplushstandcoral));
-		registerRender(Item.getItemFromBlock(amogusplushstandgray));
-		registerRender(Item.getItemFromBlock(amogusplushstandmaroon));
-		registerRender(Item.getItemFromBlock(amogusplushstandbrown));
-		registerRender(Item.getItemFromBlock(amogusplushstandtan));
+		registerRender(Item.getItemFromBlock(crewmate_stand_red));
+		registerRender(Item.getItemFromBlock(crewmate_stand_blue));
+		registerRender(Item.getItemFromBlock(crewmate_stand_green));
+		registerRender(Item.getItemFromBlock(crewmate_stand_pink));
+		registerRender(Item.getItemFromBlock(crewmate_stand_orange));
+		registerRender(Item.getItemFromBlock(crewmate_stand_lime));
+		registerRender(Item.getItemFromBlock(crewmate_stand_white));
+		registerRender(Item.getItemFromBlock(crewmate_stand_black));
+		registerRender(Item.getItemFromBlock(crewmate_stand_rose));
+		registerRender(Item.getItemFromBlock(crewmate_stand_cyan));
+		registerRender(Item.getItemFromBlock(crewmate_stand_yellow));
+		registerRender(Item.getItemFromBlock(crewmate_stand_purple));
+		registerRender(Item.getItemFromBlock(crewmate_stand_banana));
+		registerRender(Item.getItemFromBlock(crewmate_stand_coral));
+		registerRender(Item.getItemFromBlock(crewmate_stand_gray));
+		registerRender(Item.getItemFromBlock(crewmate_stand_maroon));
+		registerRender(Item.getItemFromBlock(crewmate_stand_brown));
+		registerRender(Item.getItemFromBlock(crewmate_stand_tan));
 
-		registerRender(Item.getItemFromBlock(amogusplushdeadred));
-		registerRender(Item.getItemFromBlock(amogusplushdeadblue));
-		registerRender(Item.getItemFromBlock(amogusplushdeadgreen));
-		registerRender(Item.getItemFromBlock(amogusplushdeadpink));
-		registerRender(Item.getItemFromBlock(amogusplushdeadorange));
-		registerRender(Item.getItemFromBlock(amogusplushdeadlime));
-		registerRender(Item.getItemFromBlock(amogusplushdeadwhite));
-		registerRender(Item.getItemFromBlock(amogusplushdeadblack));
-		registerRender(Item.getItemFromBlock(amogusplushdeadrose));
-		registerRender(Item.getItemFromBlock(amogusplushdeadcyan));
-		registerRender(Item.getItemFromBlock(amogusplushdeadyellow));
-		registerRender(Item.getItemFromBlock(amogusplushdeadpurple));
-		registerRender(Item.getItemFromBlock(amogusplushdeadbanana));
-		registerRender(Item.getItemFromBlock(amogusplushdeadcoral));
-		registerRender(Item.getItemFromBlock(amogusplushdeadgray));
-		registerRender(Item.getItemFromBlock(amogusplushdeadmaroon));
-		registerRender(Item.getItemFromBlock(amogusplushdeadbrown));
-		registerRender(Item.getItemFromBlock(amogusplushdeadtan));
+		registerRender(Item.getItemFromBlock(crewmate_dead_red));
+		registerRender(Item.getItemFromBlock(crewmate_dead_blue));
+		registerRender(Item.getItemFromBlock(crewmate_dead_green));
+		registerRender(Item.getItemFromBlock(crewmate_dead_pink));
+		registerRender(Item.getItemFromBlock(crewmate_dead_orange));
+		registerRender(Item.getItemFromBlock(crewmate_dead_lime));
+		registerRender(Item.getItemFromBlock(crewmate_dead_white));
+		registerRender(Item.getItemFromBlock(crewmate_dead_black));
+		registerRender(Item.getItemFromBlock(crewmate_dead_rose));
+		registerRender(Item.getItemFromBlock(crewmate_dead_cyan));
+		registerRender(Item.getItemFromBlock(crewmate_dead_yellow));
+		registerRender(Item.getItemFromBlock(crewmate_dead_purple));
+		registerRender(Item.getItemFromBlock(crewmate_dead_banana));
+		registerRender(Item.getItemFromBlock(crewmate_dead_coral));
+		registerRender(Item.getItemFromBlock(crewmate_dead_gray));
+		registerRender(Item.getItemFromBlock(crewmate_dead_maroon));
+		registerRender(Item.getItemFromBlock(crewmate_dead_brown));
+		registerRender(Item.getItemFromBlock(crewmate_dead_tan));
 
 		//Minecraft Plushies
 		registerRender(Item.getItemFromBlock(sheepplush));
@@ -472,6 +488,9 @@ public class ModBlocks {
 		registerRender(Item.getItemFromBlock(lmbplush));
 		registerRender(Item.getItemFromBlock(ldevhim));
 		registerRender(Item.getItemFromBlock(ldevhimside));
+
+		//Furniture
+		registerRender(Item.getItemFromBlock(table));
 	}
 	
 	public static void registerRender(Item item) {

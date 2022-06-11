@@ -1,18 +1,9 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "0": "toycraft:blocks/misc/ldevhim",
-      "particle": "toycraft:blocks/misc/ldevhim"
-    },
-    "model": "toycraft:ldevhim",
-    "uvlock": true
-  },
   "variants": {
-    "normal": {"model":  "toycraft:ldevhim"},
-    "facing=north": {"model":  "toycraft:ldevhim"},
-    "facing=east": {"model":  "toycraft:ldevhime"},
-    "facing=south": {"model":  "toycraft:ldevhims"},
-    "facing=west": {"model":  "toycraft:ldevhimw"}
+    "normal": {"model":  "toycraft:him_north"},
+    "facing=north": {"model":  "toycraft:him_north"},
+    "facing=east": {"model":  "toycraft:him_east"},
+    "facing=south": {"model":  "toycraft:him_south"},
+    "facing=west": {"model":  "toycraft:him_west"}
   }
 }

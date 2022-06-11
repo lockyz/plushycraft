@@ -5,14 +5,14 @@
       "0": "toycraft:blocks/minecraft/slimeplush",
       "particle": "toycraft:blocks/minecraft/slimeplush"
     },
-    "model": "toycraft:slimeplush",
+    "model": "toycraft:slime_north",
     "uvlock": true
   },
   "variants": {
-    "normal": {"model":  "toycraft:slimeplush"},
-    "facing=north": {"model":  "toycraft:slimeplush"},
-    "facing=east": {"model":  "toycraft:slimeplushe"},
-    "facing=south": {"model":  "toycraft:slimeplushs"},
-    "facing=west": {"model":  "toycraft:slimeplushw"}
+    "normal": {"model":  "toycraft:slime_north"},
+    "facing=north": {"model":  "toycraft:slime_north"},
+    "facing=east": {"model":  "toycraft:slime_east"},
+    "facing=south": {"model":  "toycraft:slime_south"},
+    "facing=west": {"model":  "toycraft:slime_west"}
   }
 }

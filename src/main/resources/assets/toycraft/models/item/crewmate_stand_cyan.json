@@ -1,0 +1,6 @@
+{
+  "parent": "toycraft:block/crewmate_stand",
+  "textures": {
+    "4": "toycraft:blocks/amogus/crewmate_cyan"
+  }
+}

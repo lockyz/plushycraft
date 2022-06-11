@@ -78,6 +78,37 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1, 1.25],
+			"scale": [1, 1, 1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1, 1.25],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_righthand": {
+			"translation": [3.25, 0.75, 0],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.25, 0.75, 0],
+			"scale": [1, 1, 1]
+		},
+		"ground": {
+			"scale": [1, 1, 1]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -0.5, 0],
+			"scale": [1, 1, 1]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, -2.75],
+			"scale": [1, 1, 1]
+		}
+	},
 	"groups": [
 		{
 			"name": "Zombie",

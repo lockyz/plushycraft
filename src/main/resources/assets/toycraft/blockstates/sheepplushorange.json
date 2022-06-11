@@ -5,14 +5,14 @@
       "0": "toycraft:blocks/minecraft/sheep_orange",
       "particle": "toycraft:blocks/minecraft/sheep_orange"
     },
-    "model": "toycraft:shep",
+    "model": "toycraft:sheep_north",
     "uvlock": true
   },
   "variants": {
-    "normal": {"model":  "toycraft:shep"},
-    "facing=north": {"model":  "toycraft:shep"},
-    "facing=east": {"model":  "toycraft:shepe"},
-    "facing=south": {"model":  "toycraft:sheps"},
-    "facing=west": {"model":  "toycraft:shepw"}
+    "normal": {"model":  "toycraft:sheep_north"},
+    "facing=north": {"model":  "toycraft:sheep_north"},
+    "facing=east": {"model":  "toycraft:sheep_east"},
+    "facing=south": {"model":  "toycraft:sheep_south"},
+    "facing=west": {"model":  "toycraft:sheep_west"}
   }
 }

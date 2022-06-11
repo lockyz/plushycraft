@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "0": "toycraft:blocks/furniture/table",
+        "1": "toycraft:blocks/furniture/table",
+        "particle": "toycraft:blocks/furniture/table"
+      },
+      "model": "toycraft:table",
+      "uvlock": true
+    },
+  "variants": {
+    "normal": {"model":  "toycraft:table"},
+    "facing=north": {"model":  "toycraft:table"},
+    "facing=east": {"model":  "toycraft:table"},
+    "facing=south": {"model":  "toycraft:table"},
+    "facing=west": {"model":  "toycraft:table"}
+  }
+  }
