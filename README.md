@@ -1,4 +1,4 @@
-[![Logo](https://db.lockyzdev.net/mods/plushycraft/banner.png)](https://lockyzdev.net/plushycraft/)
+[![Logo](https://db.lockyzdev.net/mods/toycraft/banner.png)](https://lockyzdev.net/plushycraft/)
 # Toycraft
 [![Curseforge](https://cf.way2muchnoise.eu/full_563968_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/plushycraft) [![Curseforge](https://cf.way2muchnoise.eu/versions/563968.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/plushycraft) [![Discord](https://img.shields.io/discord/595881103672475665?color=7289da&label=Discord&style=for-the-badge)](https://discord.gg/NgpN3YYbMM)
 
@@ -23,24 +23,33 @@ You can report bugs, glitches and other various errors on our [Bug Tracker](http
 - [ ] Pig
 - [x] Zombie
 - [ ] Player
+- [x] Sheep
 
 ### Pokemon Plushies
 - [ ] Eevee
 - [ ] Pikachu
+- [ ] Charmander
+- [ ] Bulbasaur
+- [ ] Squirtle
 
 ### Among us Plushies
-- [x] Rose Sitting/Standing
-- [x] Cyan Sitting/Standing
-- [x] Yellow Sitting/Standing
-- [x] Purple Sitting/Standing
-- [x] Banana Sitting/Standing
-- [x] Coral Sitting/Standing
-- [x] Gray Sitting/Standing
-- [x] Maroon Sitting/Standing
-- [x] Brown Sitting/Standing
-- [x] Tan Sitting/Standing
+- [x] Crewmate Standing
+- [x] Crewmate Sitting
+- [x] Crewmate Dead
+- [ ] Impostor Standing
+- [ ] Impostor Sitting
 
 ### Misc Plushies
 - [x] LMB Plushy
+
+### Furniture
+- [x] Table
+- [ ] Chair
+- [ ] Wall Shelf
+
+### Consoles
+- [ ] PS2 (Slim)
+- [ ] Wii
+- [ ] Switch
 
 **There ARE more toys, they're just not on this list**
